@@ -1,0 +1,145 @@
+python notebooks/models-to-deploy/b-train_deeplearning_keras.py
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv_tf/lib/python3.11/site-packages/keras/src/layers/convolutional/base_conv.py:107: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+Epoch 1/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 2s 672us/step - accuracy: 0.9988 - loss: 0.0260 - val_accuracy: 0.9992 - val_loss: 0.0044
+Epoch 2/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 2s 585us/step - accuracy: 0.9994 - loss: 0.0032 - val_accuracy: 0.9992 - val_loss: 0.0044
+Epoch 3/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 2s 604us/step - accuracy: 0.9994 - loss: 0.0031 - val_accuracy: 0.9989 - val_loss: 0.0043
+Epoch 4/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 2s 574us/step - accuracy: 0.9994 - loss: 0.0032 - val_accuracy: 0.9991 - val_loss: 0.0045
+Epoch 5/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 2s 551us/step - accuracy: 0.9994 - loss: 0.0029 - val_accuracy: 0.9991 - val_loss: 0.0041
+Epoch 6/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 2s 550us/step - accuracy: 0.9993 - loss: 0.0032 - val_accuracy: 0.9991 - val_loss: 0.0040
+Epoch 7/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 2s 583us/step - accuracy: 0.9994 - loss: 0.0029 - val_accuracy: 0.9991 - val_loss: 0.0039
+Epoch 8/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 2s 564us/step - accuracy: 0.9995 - loss: 0.0027 - val_accuracy: 0.9991 - val_loss: 0.0042
+Epoch 9/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 2s 602us/step - accuracy: 0.9994 - loss: 0.0027 - val_accuracy: 0.9992 - val_loss: 0.0038
+Epoch 10/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 2s 593us/step - accuracy: 0.9994 - loss: 0.0028 - val_accuracy: 0.9991 - val_loss: 0.0042
+1336/1336 ━━━━━━━━━━━━━━━━━━━━ 0s 210us/step
+CNN Best Threshold: 0.6567
+CNN Best F1-score: 0.8550
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     42648
+           1       0.98      0.76      0.85        74
+
+    accuracy                           1.00     42722
+   macro avg       0.99      0.88      0.93     42722
+weighted avg       1.00      1.00      1.00     42722
+
+Saved artifact at '/Users/lucasbraga/Documents/GitHub/fraud-research/models/models2deploy-dl/CNN/1/'. The following endpoints are available:
+
+* Endpoint 'serve'
+  args_0 (POSITIONAL_ONLY): TensorSpec(shape=(None, 5, 6, 1), dtype=tf.float32, name='keras_tensor')
+Output Type:
+  TensorSpec(shape=(None, 1), dtype=tf.float32, name=None)
+Captures:
+  14448506448: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14448507024: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14448508368: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14448507216: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14448507408: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14448506640: TensorSpec(shape=(), dtype=tf.resource, name=None)
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv_tf/lib/python3.11/site-packages/keras/src/layers/rnn/rnn.py:200: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+Epoch 1/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 26s 8ms/step - accuracy: 0.9961 - loss: 0.0360 - val_accuracy: 0.9991 - val_loss: 0.0051
+Epoch 2/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 22s 7ms/step - accuracy: 0.9993 - loss: 0.0039 - val_accuracy: 0.9991 - val_loss: 0.0045
+Epoch 3/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 18s 6ms/step - accuracy: 0.9993 - loss: 0.0039 - val_accuracy: 0.9991 - val_loss: 0.0047
+Epoch 4/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 21s 7ms/step - accuracy: 0.9995 - loss: 0.0026 - val_accuracy: 0.9991 - val_loss: 0.0046
+Epoch 5/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 21s 7ms/step - accuracy: 0.9994 - loss: 0.0033 - val_accuracy: 0.9990 - val_loss: 0.0047
+1336/1336 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step  
+LSTM Best Threshold: 0.2089
+LSTM Best F1-score: 0.8451
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     42648
+           1       0.88      0.81      0.85        74
+
+    accuracy                           1.00     42722
+   macro avg       0.94      0.91      0.92     42722
+weighted avg       1.00      1.00      1.00     42722
+
+Saved artifact at '/Users/lucasbraga/Documents/GitHub/fraud-research/models/models2deploy-dl/LSTM/1/'. The following endpoints are available:
+
+* Endpoint 'serve'
+  args_0 (POSITIONAL_ONLY): TensorSpec(shape=(None, 30, 1), dtype=tf.float32, name='keras_tensor_6')
+Output Type:
+  TensorSpec(shape=(None, 1), dtype=tf.float32, name=None)
+Captures:
+  14866399888: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14866402960: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14866403344: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14866401232: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14866402384: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14866401040: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14866405648: TensorSpec(shape=(), dtype=tf.resource, name=None)
+Epoch 1/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 14s 4ms/step - accuracy: 0.9985 - loss: 0.4463 - val_accuracy: 0.9983 - val_loss: 0.1060
+Epoch 2/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 12s 4ms/step - accuracy: 0.9983 - loss: 0.0780 - val_accuracy: 0.9983 - val_loss: 0.0308
+Epoch 3/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 12s 4ms/step - accuracy: 0.9984 - loss: 0.0250 - val_accuracy: 0.9983 - val_loss: 0.0157
+Epoch 4/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 12s 4ms/step - accuracy: 0.9983 - loss: 0.0146 - val_accuracy: 0.9983 - val_loss: 0.0130
+Epoch 5/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 11s 4ms/step - accuracy: 0.9982 - loss: 0.0133 - val_accuracy: 0.9983 - val_loss: 0.0128
+Epoch 6/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 12s 4ms/step - accuracy: 0.9984 - loss: 0.0118 - val_accuracy: 0.9983 - val_loss: 0.0127
+Epoch 7/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 13s 4ms/step - accuracy: 0.9981 - loss: 0.0138 - val_accuracy: 0.9983 - val_loss: 0.0127
+Epoch 8/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 13s 4ms/step - accuracy: 0.9981 - loss: 0.0136 - val_accuracy: 0.9983 - val_loss: 0.0127
+Epoch 9/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 13s 4ms/step - accuracy: 0.9983 - loss: 0.0123 - val_accuracy: 0.9983 - val_loss: 0.0127
+Epoch 10/10
+3116/3116 ━━━━━━━━━━━━━━━━━━━━ 14s 4ms/step - accuracy: 0.9983 - loss: 0.0128 - val_accuracy: 0.9983 - val_loss: 0.0127
+1336/1336 ━━━━━━━━━━━━━━━━━━━━ 1s 825us/step 
+Transformer Best Threshold: 0.0017
+Transformer Best F1-score: 0.0035
+              precision    recall  f1-score   support
+
+           0       1.00      0.00      0.00     42648
+           1       0.00      1.00      0.00        74
+
+    accuracy                           0.00     42722
+   macro avg       0.50      0.50      0.00     42722
+weighted avg       1.00      0.00      0.00     42722
+
+Saved artifact at '/Users/lucasbraga/Documents/GitHub/fraud-research/models/models2deploy-dl/Transformer/1/'. The following endpoints are available:
+
+* Endpoint 'serve'
+  args_0 (POSITIONAL_ONLY): TensorSpec(shape=(None, 30, 1), dtype=tf.float32, name='keras_tensor_10')
+Output Type:
+  TensorSpec(shape=(None, 1), dtype=tf.float32, name=None)
+Captures:
+  14883782736: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14883787728: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14883785232: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14883788688: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14883784272: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14883787152: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14883788496: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14883784656: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14883790416: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14883786768: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14883791376: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14883791952: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14883790608: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14883793104: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14883791760: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14883792912: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14883794064: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14883794640: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14883793680: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  14883795408: TensorSpec(shape=(), dtype=tf.resource, name=None)

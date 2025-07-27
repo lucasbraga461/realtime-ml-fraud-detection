@@ -1,0 +1,306 @@
+python notebooks/models-to-deploy/train_sklearn_optuna_joblib.py 
+Data shape: (284807, 31)
+Tuning DecisionTree...
+[I 2025-05-13 17:08:17,189] A new study created in memory with name: no-name-9e55380a-38ab-4dc0-9377-24af8844580e
+[I 2025-05-13 17:08:21,491] Trial 0 finished with value: 1.0 and parameters: {'max_depth': 20}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:08:25,661] Trial 1 finished with value: 1.0 and parameters: {'max_depth': 20}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:08:27,023] Trial 2 finished with value: 0.8852459016393442 and parameters: {'max_depth': 5}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:08:31,033] Trial 3 finished with value: 0.9919571045576407 and parameters: {'max_depth': 15}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:08:35,111] Trial 4 finished with value: 1.0 and parameters: {'max_depth': 20}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:08:37,797] Trial 5 finished with value: 0.9584487534626038 and parameters: {'max_depth': 10}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:08:41,879] Trial 6 finished with value: 1.0 and parameters: {'max_depth': 20}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:08:44,573] Trial 7 finished with value: 0.9584487534626038 and parameters: {'max_depth': 10}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:08:48,531] Trial 8 finished with value: 0.9919571045576407 and parameters: {'max_depth': 15}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:08:52,514] Trial 9 finished with value: 0.9919571045576407 and parameters: {'max_depth': 15}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:08:53,870] Trial 10 finished with value: 0.8852459016393442 and parameters: {'max_depth': 5}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:08:57,960] Trial 11 finished with value: 1.0 and parameters: {'max_depth': 20}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:09:02,053] Trial 12 finished with value: 1.0 and parameters: {'max_depth': 20}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:09:06,170] Trial 13 finished with value: 1.0 and parameters: {'max_depth': 20}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:09:10,270] Trial 14 finished with value: 1.0 and parameters: {'max_depth': 20}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:09:14,365] Trial 15 finished with value: 1.0 and parameters: {'max_depth': 20}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:09:18,484] Trial 16 finished with value: 1.0 and parameters: {'max_depth': 20}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:09:19,846] Trial 17 finished with value: 0.8852459016393442 and parameters: {'max_depth': 5}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:09:22,546] Trial 18 finished with value: 0.9584487534626038 and parameters: {'max_depth': 10}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:09:26,636] Trial 19 finished with value: 1.0 and parameters: {'max_depth': 20}. Best is trial 0 with value: 1.0.
+DecisionTree F1-score: 0.7432
+Tuning RandomForest...
+[I 2025-05-13 17:09:30,750] A new study created in memory with name: no-name-d672c244-f6a1-49b8-9255-ddd9d3ab9163
+[I 2025-05-13 17:09:45,290] Trial 0 finished with value: 0.9408450704225352 and parameters: {'n_estimators': 50, 'max_depth': 10}. Best is trial 0 with value: 0.9408450704225352.
+[I 2025-05-13 17:09:59,865] Trial 1 finished with value: 0.9408450704225352 and parameters: {'n_estimators': 50, 'max_depth': 10}. Best is trial 0 with value: 0.9408450704225352.
+[I 2025-05-13 17:10:29,118] Trial 2 finished with value: 0.9408450704225352 and parameters: {'n_estimators': 100, 'max_depth': 10}. Best is trial 0 with value: 0.9408450704225352.
+[I 2025-05-13 17:10:44,453] Trial 3 finished with value: 0.872093023255814 and parameters: {'n_estimators': 100, 'max_depth': 5}. Best is trial 0 with value: 0.9408450704225352.
+[I 2025-05-13 17:10:59,126] Trial 4 finished with value: 0.9408450704225352 and parameters: {'n_estimators': 50, 'max_depth': 10}. Best is trial 0 with value: 0.9408450704225352.
+[I 2025-05-13 17:11:29,139] Trial 5 finished with value: 0.872093023255814 and parameters: {'n_estimators': 200, 'max_depth': 5}. Best is trial 0 with value: 0.9408450704225352.
+[I 2025-05-13 17:11:44,149] Trial 6 finished with value: 0.872093023255814 and parameters: {'n_estimators': 100, 'max_depth': 5}. Best is trial 0 with value: 0.9408450704225352.
+[I 2025-05-13 17:11:59,135] Trial 7 finished with value: 0.872093023255814 and parameters: {'n_estimators': 100, 'max_depth': 5}. Best is trial 0 with value: 0.9408450704225352.
+[I 2025-05-13 17:12:27,980] Trial 8 finished with value: 0.9408450704225352 and parameters: {'n_estimators': 100, 'max_depth': 10}. Best is trial 0 with value: 0.9408450704225352.
+[I 2025-05-13 17:12:45,890] Trial 9 finished with value: 0.9698630136986301 and parameters: {'n_estimators': 50, 'max_depth': 15}. Best is trial 9 with value: 0.9698630136986301.
+[I 2025-05-13 17:13:59,038] Trial 10 finished with value: 0.9641873278236914 and parameters: {'n_estimators': 200, 'max_depth': 15}. Best is trial 9 with value: 0.9698630136986301.
+[I 2025-05-13 17:15:12,642] Trial 11 finished with value: 0.9641873278236914 and parameters: {'n_estimators': 200, 'max_depth': 15}. Best is trial 9 with value: 0.9698630136986301.
+[I 2025-05-13 17:16:26,651] Trial 12 finished with value: 0.9641873278236914 and parameters: {'n_estimators': 200, 'max_depth': 15}. Best is trial 9 with value: 0.9698630136986301.
+[I 2025-05-13 17:17:40,369] Trial 13 finished with value: 0.9641873278236914 and parameters: {'n_estimators': 200, 'max_depth': 15}. Best is trial 9 with value: 0.9698630136986301.
+[I 2025-05-13 17:17:58,245] Trial 14 finished with value: 0.9698630136986301 and parameters: {'n_estimators': 50, 'max_depth': 15}. Best is trial 9 with value: 0.9698630136986301.
+[I 2025-05-13 17:18:16,064] Trial 15 finished with value: 0.9698630136986301 and parameters: {'n_estimators': 50, 'max_depth': 15}. Best is trial 9 with value: 0.9698630136986301.
+[I 2025-05-13 17:18:34,021] Trial 16 finished with value: 0.9698630136986301 and parameters: {'n_estimators': 50, 'max_depth': 15}. Best is trial 9 with value: 0.9698630136986301.
+[I 2025-05-13 17:18:51,946] Trial 17 finished with value: 0.9698630136986301 and parameters: {'n_estimators': 50, 'max_depth': 15}. Best is trial 9 with value: 0.9698630136986301.
+[I 2025-05-13 17:19:09,817] Trial 18 finished with value: 0.9698630136986301 and parameters: {'n_estimators': 50, 'max_depth': 15}. Best is trial 9 with value: 0.9698630136986301.
+[I 2025-05-13 17:19:27,799] Trial 19 finished with value: 0.9698630136986301 and parameters: {'n_estimators': 50, 'max_depth': 15}. Best is trial 9 with value: 0.9698630136986301.
+RandomForest F1-score: 0.8192
+Tuning LogisticRegression...
+[I 2025-05-13 17:19:45,657] A new study created in memory with name: no-name-c5d39650-2b51-4715-9269-646bf741f994
+[I 2025-05-13 17:19:45,783] Trial 0 finished with value: 0.817910447761194 and parameters: {'C': 10.0}. Best is trial 0 with value: 0.817910447761194.
+[I 2025-05-13 17:19:45,862] Trial 1 finished with value: 0.817910447761194 and parameters: {'C': 10.0}. Best is trial 0 with value: 0.817910447761194.
+[I 2025-05-13 17:19:45,943] Trial 2 finished with value: 0.817910447761194 and parameters: {'C': 10.0}. Best is trial 0 with value: 0.817910447761194.
+[I 2025-05-13 17:19:46,024] Trial 3 finished with value: 0.8203592814371258 and parameters: {'C': 1.0}. Best is trial 3 with value: 0.8203592814371258.
+[I 2025-05-13 17:19:46,105] Trial 4 finished with value: 0.817910447761194 and parameters: {'C': 10.0}. Best is trial 3 with value: 0.8203592814371258.
+[I 2025-05-13 17:19:46,183] Trial 5 finished with value: 0.8203592814371258 and parameters: {'C': 1.0}. Best is trial 3 with value: 0.8203592814371258.
+[I 2025-05-13 17:19:46,264] Trial 6 finished with value: 0.8203592814371258 and parameters: {'C': 1.0}. Best is trial 3 with value: 0.8203592814371258.
+[I 2025-05-13 17:19:46,346] Trial 7 finished with value: 0.817910447761194 and parameters: {'C': 10.0}. Best is trial 3 with value: 0.8203592814371258.
+[I 2025-05-13 17:19:46,427] Trial 8 finished with value: 0.8203592814371258 and parameters: {'C': 1.0}. Best is trial 3 with value: 0.8203592814371258.
+[I 2025-05-13 17:19:46,517] Trial 9 finished with value: 0.8203592814371258 and parameters: {'C': 1.0}. Best is trial 3 with value: 0.8203592814371258.
+[I 2025-05-13 17:19:46,607] Trial 10 finished with value: 0.8143712574850299 and parameters: {'C': 0.1}. Best is trial 3 with value: 0.8203592814371258.
+[I 2025-05-13 17:19:46,759] Trial 11 finished with value: 0.8203592814371258 and parameters: {'C': 1.0}. Best is trial 3 with value: 0.8203592814371258.
+[I 2025-05-13 17:19:46,842] Trial 12 finished with value: 0.8203592814371258 and parameters: {'C': 1.0}. Best is trial 3 with value: 0.8203592814371258.
+[I 2025-05-13 17:19:46,969] Trial 13 finished with value: 0.8143712574850299 and parameters: {'C': 0.1}. Best is trial 3 with value: 0.8203592814371258.
+[I 2025-05-13 17:19:47,041] Trial 14 finished with value: 0.8203592814371258 and parameters: {'C': 1.0}. Best is trial 3 with value: 0.8203592814371258.
+[I 2025-05-13 17:19:47,117] Trial 15 finished with value: 0.8203592814371258 and parameters: {'C': 1.0}. Best is trial 3 with value: 0.8203592814371258.
+[I 2025-05-13 17:19:47,186] Trial 16 finished with value: 0.8203592814371258 and parameters: {'C': 1.0}. Best is trial 3 with value: 0.8203592814371258.
+[I 2025-05-13 17:19:47,269] Trial 17 finished with value: 0.8143712574850299 and parameters: {'C': 0.1}. Best is trial 3 with value: 0.8203592814371258.
+[I 2025-05-13 17:19:47,352] Trial 18 finished with value: 0.8203592814371258 and parameters: {'C': 1.0}. Best is trial 3 with value: 0.8203592814371258.
+[I 2025-05-13 17:19:47,432] Trial 19 finished with value: 0.8203592814371258 and parameters: {'C': 1.0}. Best is trial 3 with value: 0.8203592814371258.
+LogisticRegression F1-score: 0.7433
+Tuning XGBoost...
+[I 2025-05-13 17:19:47,507] A new study created in memory with name: no-name-4e86c6fd-5618-4772-95cc-24adc153946b
+[I 2025-05-13 17:19:48,018] Trial 0 finished with value: 1.0 and parameters: {'max_depth': 7, 'learning_rate': 0.1}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:19:48,351] Trial 1 finished with value: 1.0 and parameters: {'max_depth': 7, 'learning_rate': 0.1}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:19:48,480] Trial 2 finished with value: 0.0 and parameters: {'max_depth': 5, 'learning_rate': 0.3}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:19:48,609] Trial 3 finished with value: 0.0 and parameters: {'max_depth': 5, 'learning_rate': 0.3}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:19:48,935] Trial 4 finished with value: 1.0 and parameters: {'max_depth': 7, 'learning_rate': 0.1}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:19:49,111] Trial 5 finished with value: 0.8072289156626506 and parameters: {'max_depth': 3, 'learning_rate': 0.01}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:19:49,356] Trial 6 finished with value: 0.822429906542056 and parameters: {'max_depth': 5, 'learning_rate': 0.01}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:19:49,542] Trial 7 finished with value: 0.9502762430939227 and parameters: {'max_depth': 3, 'learning_rate': 0.1}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:19:49,672] Trial 8 finished with value: 0.0 and parameters: {'max_depth': 5, 'learning_rate': 0.3}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:19:49,983] Trial 9 finished with value: 0.825 and parameters: {'max_depth': 7, 'learning_rate': 0.01}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:19:50,311] Trial 10 finished with value: 1.0 and parameters: {'max_depth': 7, 'learning_rate': 0.1}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:19:50,638] Trial 11 finished with value: 1.0 and parameters: {'max_depth': 7, 'learning_rate': 0.1}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:19:50,966] Trial 12 finished with value: 1.0 and parameters: {'max_depth': 7, 'learning_rate': 0.1}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:19:51,296] Trial 13 finished with value: 1.0 and parameters: {'max_depth': 7, 'learning_rate': 0.1}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:19:51,621] Trial 14 finished with value: 1.0 and parameters: {'max_depth': 7, 'learning_rate': 0.1}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:19:51,949] Trial 15 finished with value: 1.0 and parameters: {'max_depth': 7, 'learning_rate': 0.1}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:19:52,135] Trial 16 finished with value: 0.9502762430939227 and parameters: {'max_depth': 3, 'learning_rate': 0.1}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:19:52,460] Trial 17 finished with value: 1.0 and parameters: {'max_depth': 7, 'learning_rate': 0.1}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:19:52,594] Trial 18 finished with value: 0.0 and parameters: {'max_depth': 7, 'learning_rate': 0.3}. Best is trial 0 with value: 1.0.
+[I 2025-05-13 17:19:52,772] Trial 19 finished with value: 0.8072289156626506 and parameters: {'max_depth': 3, 'learning_rate': 0.01}. Best is trial 0 with value: 1.0.
+XGBoost F1-score: 0.8433
+Tuning LightGBM...
+[I 2025-05-13 17:19:53,097] A new study created in memory with name: no-name-e35515ba-f93b-4f11-805e-bbf57d1cd157
+[LightGBM] [Info] Number of positive: 188, number of negative: 99494
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001994 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 7420
+[LightGBM] [Info] Number of data points in the train set: 99682, number of used features: 30
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.001886 -> initscore=-6.271411
+[LightGBM] [Info] Start training from score -6.271411
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv-res/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[I 2025-05-13 17:19:54,553] Trial 0 finished with value: 0.9441340782122905 and parameters: {'num_leaves': 70, 'learning_rate': 0.01}. Best is trial 0 with value: 0.9441340782122905.
+[LightGBM] [Info] Number of positive: 188, number of negative: 99494
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001945 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 7420
+[LightGBM] [Info] Number of data points in the train set: 99682, number of used features: 30
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.001886 -> initscore=-6.271411
+[LightGBM] [Info] Start training from score -6.271411
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv-res/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[I 2025-05-13 17:19:55,713] Trial 1 finished with value: 0.6211764705882353 and parameters: {'num_leaves': 50, 'learning_rate': 0.1}. Best is trial 0 with value: 0.9441340782122905.
+[LightGBM] [Info] Number of positive: 188, number of negative: 99494
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001963 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 7420
+[LightGBM] [Info] Number of data points in the train set: 99682, number of used features: 30
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.001886 -> initscore=-6.271411
+[LightGBM] [Info] Start training from score -6.271411
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv-res/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[I 2025-05-13 17:19:57,138] Trial 2 finished with value: 0.9441340782122905 and parameters: {'num_leaves': 70, 'learning_rate': 0.01}. Best is trial 0 with value: 0.9441340782122905.
+[LightGBM] [Info] Number of positive: 188, number of negative: 99494
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001740 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 7420
+[LightGBM] [Info] Number of data points in the train set: 99682, number of used features: 30
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.001886 -> initscore=-6.271411
+[LightGBM] [Info] Start training from score -6.271411
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv-res/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[I 2025-05-13 17:19:58,220] Trial 3 finished with value: 0.947075208913649 and parameters: {'num_leaves': 50, 'learning_rate': 0.01}. Best is trial 3 with value: 0.947075208913649.
+[LightGBM] [Info] Number of positive: 188, number of negative: 99494
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001951 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 7420
+[LightGBM] [Info] Number of data points in the train set: 99682, number of used features: 30
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.001886 -> initscore=-6.271411
+[LightGBM] [Info] Start training from score -6.271411
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv-res/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[I 2025-05-13 17:19:59,801] Trial 4 finished with value: 0.6623376623376623 and parameters: {'num_leaves': 70, 'learning_rate': 0.1}. Best is trial 3 with value: 0.947075208913649.
+[LightGBM] [Info] Number of positive: 188, number of negative: 99494
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001816 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 7420
+[LightGBM] [Info] Number of data points in the train set: 99682, number of used features: 30
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.001886 -> initscore=-6.271411
+[LightGBM] [Info] Start training from score -6.271411
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv-res/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[I 2025-05-13 17:20:01,383] Trial 5 finished with value: 0.6623376623376623 and parameters: {'num_leaves': 70, 'learning_rate': 0.1}. Best is trial 3 with value: 0.947075208913649.
+[LightGBM] [Info] Number of positive: 188, number of negative: 99494
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001797 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 7420
+[LightGBM] [Info] Number of data points in the train set: 99682, number of used features: 30
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.001886 -> initscore=-6.271411
+[LightGBM] [Info] Start training from score -6.271411
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv-res/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[I 2025-05-13 17:20:02,863] Trial 6 finished with value: 1.0 and parameters: {'num_leaves': 70, 'learning_rate': 0.05}. Best is trial 6 with value: 1.0.
+[LightGBM] [Info] Number of positive: 188, number of negative: 99494
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001652 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 7420
+[LightGBM] [Info] Number of data points in the train set: 99682, number of used features: 30
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.001886 -> initscore=-6.271411
+[LightGBM] [Info] Start training from score -6.271411
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv-res/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[I 2025-05-13 17:20:04,002] Trial 7 finished with value: 1.0 and parameters: {'num_leaves': 50, 'learning_rate': 0.05}. Best is trial 6 with value: 1.0.
+[LightGBM] [Info] Number of positive: 188, number of negative: 99494
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001673 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 7420
+[LightGBM] [Info] Number of data points in the train set: 99682, number of used features: 30
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.001886 -> initscore=-6.271411
+[LightGBM] [Info] Start training from score -6.271411
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv-res/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[I 2025-05-13 17:20:05,120] Trial 8 finished with value: 1.0 and parameters: {'num_leaves': 50, 'learning_rate': 0.05}. Best is trial 6 with value: 1.0.
+[LightGBM] [Info] Number of positive: 188, number of negative: 99494
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.002013 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 7420
+[LightGBM] [Info] Number of data points in the train set: 99682, number of used features: 30
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.001886 -> initscore=-6.271411
+[LightGBM] [Info] Start training from score -6.271411
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv-res/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[I 2025-05-13 17:20:05,835] Trial 9 finished with value: 0.9137931034482759 and parameters: {'num_leaves': 31, 'learning_rate': 0.01}. Best is trial 6 with value: 1.0.
+[LightGBM] [Info] Number of positive: 188, number of negative: 99494
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001972 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 7420
+[LightGBM] [Info] Number of data points in the train set: 99682, number of used features: 30
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.001886 -> initscore=-6.271411
+[LightGBM] [Info] Start training from score -6.271411
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv-res/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[I 2025-05-13 17:20:06,594] Trial 10 finished with value: 1.0 and parameters: {'num_leaves': 31, 'learning_rate': 0.05}. Best is trial 6 with value: 1.0.
+[LightGBM] [Info] Number of positive: 188, number of negative: 99494
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001716 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 7420
+[LightGBM] [Info] Number of data points in the train set: 99682, number of used features: 30
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.001886 -> initscore=-6.271411
+[LightGBM] [Info] Start training from score -6.271411
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv-res/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[I 2025-05-13 17:20:07,711] Trial 11 finished with value: 1.0 and parameters: {'num_leaves': 50, 'learning_rate': 0.05}. Best is trial 6 with value: 1.0.
+[LightGBM] [Info] Number of positive: 188, number of negative: 99494
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001727 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 7420
+[LightGBM] [Info] Number of data points in the train set: 99682, number of used features: 30
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.001886 -> initscore=-6.271411
+[LightGBM] [Info] Start training from score -6.271411
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv-res/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[I 2025-05-13 17:20:09,221] Trial 12 finished with value: 1.0 and parameters: {'num_leaves': 70, 'learning_rate': 0.05}. Best is trial 6 with value: 1.0.
+[LightGBM] [Info] Number of positive: 188, number of negative: 99494
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001688 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 7420
+[LightGBM] [Info] Number of data points in the train set: 99682, number of used features: 30
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.001886 -> initscore=-6.271411
+[LightGBM] [Info] Start training from score -6.271411
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv-res/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[I 2025-05-13 17:20:10,345] Trial 13 finished with value: 1.0 and parameters: {'num_leaves': 50, 'learning_rate': 0.05}. Best is trial 6 with value: 1.0.
+[LightGBM] [Info] Number of positive: 188, number of negative: 99494
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001965 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 7420
+[LightGBM] [Info] Number of data points in the train set: 99682, number of used features: 30
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.001886 -> initscore=-6.271411
+[LightGBM] [Info] Start training from score -6.271411
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv-res/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[I 2025-05-13 17:20:11,105] Trial 14 finished with value: 1.0 and parameters: {'num_leaves': 31, 'learning_rate': 0.05}. Best is trial 6 with value: 1.0.
+[LightGBM] [Info] Number of positive: 188, number of negative: 99494
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001655 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 7420
+[LightGBM] [Info] Number of data points in the train set: 99682, number of used features: 30
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.001886 -> initscore=-6.271411
+[LightGBM] [Info] Start training from score -6.271411
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv-res/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[I 2025-05-13 17:20:12,595] Trial 15 finished with value: 1.0 and parameters: {'num_leaves': 70, 'learning_rate': 0.05}. Best is trial 6 with value: 1.0.
+[LightGBM] [Info] Number of positive: 188, number of negative: 99494
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001917 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 7420
+[LightGBM] [Info] Number of data points in the train set: 99682, number of used features: 30
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.001886 -> initscore=-6.271411
+[LightGBM] [Info] Start training from score -6.271411
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv-res/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[I 2025-05-13 17:20:13,725] Trial 16 finished with value: 1.0 and parameters: {'num_leaves': 50, 'learning_rate': 0.05}. Best is trial 6 with value: 1.0.
+[LightGBM] [Info] Number of positive: 188, number of negative: 99494
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.002144 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 7420
+[LightGBM] [Info] Number of data points in the train set: 99682, number of used features: 30
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.001886 -> initscore=-6.271411
+[LightGBM] [Info] Start training from score -6.271411
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv-res/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[I 2025-05-13 17:20:14,846] Trial 17 finished with value: 1.0 and parameters: {'num_leaves': 50, 'learning_rate': 0.05}. Best is trial 6 with value: 1.0.
+[LightGBM] [Info] Number of positive: 188, number of negative: 99494
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001946 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 7420
+[LightGBM] [Info] Number of data points in the train set: 99682, number of used features: 30
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.001886 -> initscore=-6.271411
+[LightGBM] [Info] Start training from score -6.271411
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv-res/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[I 2025-05-13 17:20:16,343] Trial 18 finished with value: 1.0 and parameters: {'num_leaves': 70, 'learning_rate': 0.05}. Best is trial 6 with value: 1.0.
+[LightGBM] [Info] Number of positive: 188, number of negative: 99494
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001953 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 7420
+[LightGBM] [Info] Number of data points in the train set: 99682, number of used features: 30
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.001886 -> initscore=-6.271411
+[LightGBM] [Info] Start training from score -6.271411
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv-res/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[I 2025-05-13 17:20:17,123] Trial 19 finished with value: 0.16454749439042632 and parameters: {'num_leaves': 31, 'learning_rate': 0.1}. Best is trial 6 with value: 1.0.
+[LightGBM] [Info] Number of positive: 188, number of negative: 99494
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001959 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 7420
+[LightGBM] [Info] Number of data points in the train set: 99682, number of used features: 30
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.001886 -> initscore=-6.271411
+[LightGBM] [Info] Start training from score -6.271411
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv-res/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+LightGBM F1-score: 0.6926

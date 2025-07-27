@@ -1,0 +1,46 @@
+% python notebooks/models-to-deploy/d-train_stacking_model_incl_dl.py 
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv_tf/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+4985/4985 ━━━━━━━━━━━━━━━━━━━━ 1s 213us/step 
+4985/4985 ━━━━━━━━━━━━━━━━━━━━ 5s 1ms/step   
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv_tf/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+1247/1247 ━━━━━━━━━━━━━━━━━━━━ 0s 285us/step
+1247/1247 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step
+/Users/lucasbraga/Documents/GitHub/fraud-research/venv_tf/lib/python3.11/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2671/2671 ━━━━━━━━━━━━━━━━━━━━ 1s 211us/step
+2671/2671 ━━━━━━━━━━━━━━━━━━━━ 3s 1ms/step 
+[I 2025-05-15 22:16:37,928] A new study created in memory with name: no-name-3dff3c95-104f-4713-8225-13e9cc06cd2b
+[I 2025-05-15 22:16:38,071] Trial 0 finished with value: 0.9230769230769231 and parameters: {'max_depth': 5, 'learning_rate': 0.014767829519020087, 'n_estimators': 61}. Best is trial 0 with value: 0.9230769230769231.
+[I 2025-05-15 22:16:38,359] Trial 1 finished with value: 0.9393939393939394 and parameters: {'max_depth': 7, 'learning_rate': 0.014054760603424796, 'n_estimators': 110}. Best is trial 1 with value: 0.9393939393939394.
+[I 2025-05-15 22:16:38,727] Trial 2 finished with value: 0.9393939393939394 and parameters: {'max_depth': 8, 'learning_rate': 0.015539903685444709, 'n_estimators': 127}. Best is trial 1 with value: 0.9393939393939394.
+[I 2025-05-15 22:16:39,019] Trial 3 finished with value: 0.9393939393939394 and parameters: {'max_depth': 5, 'learning_rate': 0.015530970901049249, 'n_estimators': 136}. Best is trial 1 with value: 0.9393939393939394.
+[I 2025-05-15 22:16:39,336] Trial 4 finished with value: 0.9393939393939394 and parameters: {'max_depth': 7, 'learning_rate': 0.017177036516110602, 'n_estimators': 119}. Best is trial 1 with value: 0.9393939393939394.
+[I 2025-05-15 22:16:39,564] Trial 5 finished with value: 0.8970588235294118 and parameters: {'max_depth': 4, 'learning_rate': 0.22677305099995948, 'n_estimators': 131}. Best is trial 1 with value: 0.9393939393939394.
+[I 2025-05-15 22:16:39,816] Trial 6 finished with value: 0.8970588235294118 and parameters: {'max_depth': 3, 'learning_rate': 0.21563045588272808, 'n_estimators': 186}. Best is trial 1 with value: 0.9393939393939394.
+[I 2025-05-15 22:16:40,192] Trial 7 finished with value: 0.9104477611940298 and parameters: {'max_depth': 7, 'learning_rate': 0.17693461713936473, 'n_estimators': 140}. Best is trial 1 with value: 0.9393939393939394.
+[I 2025-05-15 22:16:40,651] Trial 8 finished with value: 0.9393939393939394 and parameters: {'max_depth': 8, 'learning_rate': 0.01398091442925831, 'n_estimators': 163}. Best is trial 1 with value: 0.9393939393939394.
+[I 2025-05-15 22:16:40,993] Trial 9 finished with value: 0.9393939393939394 and parameters: {'max_depth': 6, 'learning_rate': 0.01676321284313341, 'n_estimators': 147}. Best is trial 1 with value: 0.9393939393939394.
+[I 2025-05-15 22:16:41,278] Trial 10 finished with value: 0.9402985074626866 and parameters: {'max_depth': 10, 'learning_rate': 0.04508066631149157, 'n_estimators': 79}. Best is trial 10 with value: 0.9402985074626866.
+[I 2025-05-15 22:16:41,591] Trial 11 finished with value: 0.9402985074626866 and parameters: {'max_depth': 10, 'learning_rate': 0.044012600601573595, 'n_estimators': 86}. Best is trial 10 with value: 0.9402985074626866.
+[I 2025-05-15 22:16:41,887] Trial 12 finished with value: 0.9402985074626866 and parameters: {'max_depth': 10, 'learning_rate': 0.04774588845145694, 'n_estimators': 79}. Best is trial 10 with value: 0.9402985074626866.
+[I 2025-05-15 22:16:42,211] Trial 13 finished with value: 0.9402985074626866 and parameters: {'max_depth': 10, 'learning_rate': 0.04745666273065017, 'n_estimators': 90}. Best is trial 10 with value: 0.9402985074626866.
+[I 2025-05-15 22:16:42,392] Trial 14 finished with value: 0.9402985074626866 and parameters: {'max_depth': 9, 'learning_rate': 0.08992453909629615, 'n_estimators': 50}. Best is trial 10 with value: 0.9402985074626866.
+[I 2025-05-15 22:16:42,701] Trial 15 finished with value: 0.9473684210526315 and parameters: {'max_depth': 9, 'learning_rate': 0.03079624359141656, 'n_estimators': 93}. Best is trial 15 with value: 0.9473684210526315.
+[I 2025-05-15 22:16:43,029] Trial 16 finished with value: 0.9473684210526315 and parameters: {'max_depth': 9, 'learning_rate': 0.028519311387050363, 'n_estimators': 102}. Best is trial 15 with value: 0.9473684210526315.
+[I 2025-05-15 22:16:43,362] Trial 17 finished with value: 0.9473684210526315 and parameters: {'max_depth': 9, 'learning_rate': 0.027637682316615876, 'n_estimators': 104}. Best is trial 15 with value: 0.9473684210526315.
+[I 2025-05-15 22:16:43,675] Trial 18 finished with value: 0.9473684210526315 and parameters: {'max_depth': 8, 'learning_rate': 0.02732931010917617, 'n_estimators': 101}. Best is trial 15 with value: 0.9473684210526315.
+[I 2025-05-15 22:16:43,897] Trial 19 finished with value: 0.9473684210526315 and parameters: {'max_depth': 9, 'learning_rate': 0.08364969739471476, 'n_estimators': 64}. Best is trial 15 with value: 0.9473684210526315.
+Best meta-learner params explicitly: {'max_depth': 9, 'learning_rate': 0.03079624359141656, 'n_estimators': 93}
+Optimal Threshold: 0.5101
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     85295
+           1       0.85      0.77      0.81       148
+
+    accuracy                           1.00     85443
+   macro avg       0.93      0.89      0.90     85443
+weighted avg       1.00      1.00      1.00     85443
+
+Meta-model and threshold explicitly saved at: /Users/lucasbraga/Documents/GitHub/fraud-research/models/stacking-model-dl/stacking_model_xgboost_dl.pkl
