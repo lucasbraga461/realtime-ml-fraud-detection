@@ -6,3 +6,32 @@ venv*
 __pycache__
 review/
 apps/traditional_ml/other_apps/
+terraform.tfstate.backup
+
+# Terraform files that may contain sensitive information
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+.terraform/
+.terraform.lock.hcl
+
+# SSH keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_dsa*
+*.crt
+
+# Environment and config files
+.env
+.env.*
+config.json
+secrets.json
+*.ini
+*.conf
+
+# Docker credentials
+.docker/
