@@ -35,3 +35,5 @@ secrets.json
 
 # Docker credentials
 .docker/
+z_research/
+_old/
