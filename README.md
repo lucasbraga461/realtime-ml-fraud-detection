@@ -31,7 +31,7 @@
 ```
 
 ### 📊 Research Components
-- **🚨 European Credit Card Dataset**: Fraud detection dataset (284,807 transactions, 0.173% fraud rate)
+- **🚨 European Credit Card Dataset**: [Kaggle/ULB Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) (284,807 transactions, 0.173% fraud rate)
 - **🤖 ML/DL Models**: 12 different models (CNN, LSTM, Transformer, LightGBM, XGBoost, Stacking ensembles)
 - **☁️ AWS Deployment Architectures**: EC2, ECS Fargate, ECS with Application Load Balancer
 - **📈 Performance Analysis**: Response times, throughput, scalability, and cost analysis
