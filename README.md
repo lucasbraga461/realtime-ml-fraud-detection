@@ -1,13 +1,47 @@
 # Real-Time Machine Learning Fraud Detection: A Comparative Study
 
+**Companion Repository for the IEEE Access Publication:**  
+*"A Comparative Study of ML Models and Deployment Architectures for Real-Time Credit Card Fraud Detection"*
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.19.0-orange.svg)](https://tensorflow.org/)
 [![AWS](https://img.shields.io/badge/AWS-Infrastructure-orange.svg)](https://aws.amazon.com/)
+[![IEEE Access](https://img.shields.io/badge/Published-IEEE%20Access%202025-blue.svg)](https://ieeexplore.ieee.org/)
 
-## 📋 Project Overview
+## 📚 Access the Research
 
-This repository contains a comprehensive research study on **Real-Time Credit Card Fraud Detection** using various Machine Learning models and deployment architectures on AWS cloud infrastructure. The project implements and compares 12 different ML/DL models across three deployment architectures to evaluate performance, scalability, and cost-effectiveness.
+📖 **IEEE Access Publication**: [IEEE Xplore](https://ieeexplore.ieee.org/document/11199034) *(DOI: 10.1109/ACCESS.2025.3620247)*  
+🧪 **Research Repository**: [GitHub - Real-Time ML Fraud Detection](https://github.com/lucasbraga461/realtime-ml-fraud-detection)  
+📊 **Datasets & Code**: Complete implementation with 12 ML/DL models and 3 deployment architectures  
+👤 **Connect with Authors**: [Lucas Braga](https://linkedin.com/in/lucasbraga461) | [Rodrigo Marins](https://linkedin.com/in/marinsrodrigo)  
+
+### Citation
+```bibtex
+@article{braga2025realtime,
+  title={{A Comparative Study of ML Models and Deployment Architectures for Real-Time Credit Card Fraud Detection}},
+  author={Benevides e Braga, Lucas and Marins Piaba, Rodrigo},
+  journal={IEEE Access},
+  year={2025},
+  publisher={IEEE},
+  doi={10.1109/ACCESS.2025.3620247},
+  url={https://ieeexplore.ieee.org/document/11199034},
+  note={Code and deployment scripts available at: https://github.com/lucasbraga461/realtime-ml-fraud-detection}
+}
+```
+
+### 📊 Research Components
+- **🚨 European Credit Card Dataset**: Fraud detection dataset (284,807 transactions, 0.173% fraud rate)
+- **🤖 ML/DL Models**: 12 different models (CNN, LSTM, Transformer, LightGBM, XGBoost, Stacking ensembles)
+- **☁️ AWS Deployment Architectures**: EC2, ECS Fargate, ECS with Application Load Balancer
+- **📈 Performance Analysis**: Response times, throughput, scalability, and cost analysis
+- **🔧 Production-Ready**: Complete deployment automation and load testing framework
+
+---
+
+## 📖 About This Repository
+
+A comprehensive research study on **Real-Time Credit Card Fraud Detection** using various Machine Learning models and deployment architectures on AWS cloud infrastructure. This repository provides all practical code, deployment scripts, and performance analysis from the IEEE Access research paper. The project implements and compares 12 different ML/DL models across three deployment architectures to evaluate performance, scalability, and cost-effectiveness.
 
 ### 🎯 Research Objectives
 
@@ -16,18 +50,6 @@ This repository contains a comprehensive research study on **Real-Time Credit Ca
 - **Real-Time Performance**: Measure response times and throughput under load
 - **Cost-Benefit Analysis**: Assess infrastructure costs vs. performance gains
 - **Scalability Assessment**: Test auto-scaling capabilities and resource utilization
-
-## 📊 Research Paper
-
-This project is based on the research paper:
-**"A Comparative Study of ML Models and Deployment Architectures for Real-Time Credit Card Fraud Detection"**
-
-The paper presents comprehensive findings on:
-- Model accuracy and performance metrics
-- Infrastructure deployment comparisons
-- Load testing results and scalability analysis
-- Cost optimization recommendations
-- Production deployment guidelines
 
 ## 🏗️ Project Architecture
 
@@ -124,7 +146,7 @@ realtime-ml-fraud-detection/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/realtime-ml-fraud-detection.git
+git clone https://github.com/lucasbraga461/realtime-ml-fraud-detection.git
 cd realtime-ml-fraud-detection
 ```
 
